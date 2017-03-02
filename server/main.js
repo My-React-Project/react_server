@@ -14,5 +14,5 @@ import posts from './routes/posts';
 app.use('/posts', posts);
 
 const server = app.listen(port, () => {
-    console.log('Express listening on port', port)
-})
+    console.log('Express listening on port', port);
+});
